@@ -31,7 +31,7 @@ const WeatherInputForm = ({ cb }: WeatherInputFormProps) => {
             </div>
             <form className={styles.weatherForm} onSubmit={onSearch}>
                 <div className={styles.inputGroup}>
-                    <input className={styles.inputField} {...register('searchParam')} placeholder="City name, zip code, or GPS coordinates (longitude, latitude)" />
+                    <input className={styles.inputField} {...register('searchParam')} placeholder="City name, zip code, or GPS coordinates (latitude,longitude)" />
                     <select className={styles.selectField} {...register('units', { required: true })}>
                         <option value="imperial">Fahrenheit</option>
                         <option value="metric">Celsius</option>
