@@ -39,16 +39,15 @@ function Weather() {
         <>
             <WeatherInputForm cb={fetchWeather} />
             {
-                /* Display the latest weather search results */
+                /* Display only the latest weather search result */
                 weatherData.length > 0 &&
                 <>
                     <div>Current Weather</div>
                     <WeatherSnapshot weatherData={weatherData[0]} />
                 </>
             }
-
             {
-                /* Display the previous 4 weather search results*/
+                /* Display the next previous 4 weather search results*/
                 weatherData.length > 1 &&
                 <>
                     <div>Last {weatherData.length - 1} searches...</div>
@@ -60,7 +59,6 @@ function Weather() {
                     }
                 </>
             }
-
         </>
     );
 }

@@ -11,7 +11,6 @@ type WeatherInputFormProps = {
     cb: (searchParam: string, units: 'imperial' | 'metric' | 'standard') => void;
 };
 
-
 const WeatherInputForm = ({ cb }: WeatherInputFormProps) => {
     const { register, handleSubmit } = useForm<FormValues>();
 

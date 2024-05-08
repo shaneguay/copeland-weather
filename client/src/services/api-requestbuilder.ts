@@ -1,5 +1,5 @@
 /**
- * Just using a simple builder pattern here to build the Open Weather API request URLs as for the most part they seem to
+ * Using a simple builder pattern here to build the Open Weather API request URLs as for the most part they seem to
  * be identical except for the main search parameter (city, zip, and gps)
  */
 export class APIRequestBuilder {
