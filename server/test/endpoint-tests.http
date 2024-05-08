@@ -1,0 +1,16 @@
+### 
+### NOTE: Install "REST Client for Visual Studio Code" extension to run the below commands
+###
+
+
+### Get weather for specified city name - Metric
+GET http://localhost:3000/api/weather/city/kanata?units=metric
+
+### Get weather for specified city name - Imperial
+GET http://localhost:3000/api/weather/city/kanata?units=imperial
+
+### Get weather for specified zip code
+GET http://localhost:3000/api/weather/zipcode/90201
+
+### Get weather for specified longitude and latitude
+GET http://localhost:3000/api/weather/gps/-79.38,43.65
