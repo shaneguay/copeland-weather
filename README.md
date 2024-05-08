@@ -65,3 +65,12 @@ REACT_APP_API_URL=http://localhost:3000/api/weather/
 
 - Run unit tests for API server service classes using Jest with `npm run test:watch` from the `/server` directory.
 - Perform end-to-end endpoint testing manually from Visual Studio Code using the `endpoint-tests.http` file in `/server/test/`. (Requires REST Client for Visual Studio Code extension.)
+
+## Some Testing input values for zip code and GPS
+### Zip code Input
+- Beverly Hills: 90210
+- Phoenix: 85032
+
+### GPS Input
+- Ottawa: 45.42,-75.70
+- Chicago: 41.8771,-87.6298
